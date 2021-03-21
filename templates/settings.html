@@ -1,0 +1,28 @@
+<h1>Настройки</h1>
+<div class="setting-block">
+    <div>
+        <img src="images/man-in-tuxedo.png" height="28px" style="vertical-align:middle; padding-right: 12px;" />
+        Игроки
+    </div>
+    <div>
+        <i class="icon-minus" onclick="decreaseById('players');"></i>
+        <span id="players">5</span>
+        <i class="icon-plus" onclick="increaseById('players');"></i>
+    </div>
+</div>
+<div>
+    <div class="setting-block">
+        <div>
+            <img src="images/man-detective.png" height="28px" style="vertical-align:middle; padding-right: 12px;" />
+            Шпионы
+        </div>
+        <div>
+            <i class="icon-minus" onclick="decreaseById('spys');"></i>
+            <span id="spys">1</span>
+            <i class="icon-plus" onclick="increaseById('spys');"></i>
+        </div>
+    </div>
+    <div>
+        <button class="btn btn-primary" onclick="initGame();">Начать игру</button>
+    </div>
+</div>
