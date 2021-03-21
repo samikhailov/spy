@@ -1,11 +1,19 @@
 body {
+    overflow: scroll;
     background:#22343C;
     font-family: Montserrat;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
-    display:flex;
-    justify-content: center;
+    min-width: 300px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#app {
+    width: 90%;
+    height: 90%;
+    padding: 5%;
 }
 
 h1 {
@@ -34,28 +42,25 @@ h4 {
 
 .btn {
     color: #FFFFFF;
-    display: inline-block;
     padding: 18px 20px;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
-    max-width: 315px;
     border: none;
-    margin-right: 12px;
     margin-top: 12px;
+    width: 100%;
 }
 
 .btn-primary {
     background: linear-gradient(180deg, #40DF9F 0%, #3ED598 100%);
     border-radius: 12px;
     box-shadow: 0px 2px 4px rgba(15, 218, 137, 0.3);
-    width: 100%;
+    
 }
 
 .btn-link {
     background: none;
     color: #96A7AF;
-    width: 100%;
 }
 
 .setting-block {
@@ -63,7 +68,6 @@ h4 {
     font-size: 14px;
     height: 70px;
     line-height: 70px;
-    max-width: 315px;
     width: 100%;
     background-color: #30444E;
     border-radius: 12px;
@@ -89,11 +93,9 @@ h4 {
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    margin: 10vh 10vw;
-    width: calc(100vw - 20vw);
-    height: calc(100vh - 20vh);
+    width: 90%;
+    margin-top: 10vh;
+    margin-left: 5%;
     border-radius: 25px;
     box-shadow: 0px 1px 14px #19282F;
 }
@@ -108,17 +110,14 @@ h4 {
 
 .card-text {
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    padding: 30vh 10%;
 }
 
 .modal {
     border-radius: 12px;
-    display: block;
     position: fixed;
-    width: 600px;
-    max-width: 100%;
-    height: 400px;
+    width: 90vw;
+    height: 70vh;
     max-height: 100%;
     z-index: 100;
     left: 50%;
@@ -149,7 +148,7 @@ h4 {
     position: absolute;
     margin-top: 80px;
     width: 100%;
-    height: 320px;
+    height: calc(70vh - 80px);
     overflow-y: auto;
 }
 
