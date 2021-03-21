@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
     overflow: scroll;
     background:#22343C;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
